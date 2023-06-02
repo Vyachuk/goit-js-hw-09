@@ -11,7 +11,7 @@ const options = {
   minuteIncrement: 1,
     onClose(selectedDates) {
         if(selectedDates[0] < new Date()) {
-            alert("Please choose a date in the future")
+            alert("Please choose a date in the futures")
             return;
         }
         ref.startBtn.disabled = false;
